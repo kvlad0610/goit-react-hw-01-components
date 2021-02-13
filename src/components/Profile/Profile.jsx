@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "./Profile.scss"
 
 const Profile = ({ name, tag, location, avatar, followers, views, likes }) => (
   <div className="profile">
