@@ -1,4 +1,4 @@
-import Profile from "./Profile/Profile";
+import Profile from "./Profile";
 const ProfileCard = ({ user }) => (
   <Profile
     name={user.name}
