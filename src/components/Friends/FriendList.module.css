@@ -1,11 +1,19 @@
 .item {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10px;
   width: 400px;
   height: 100px;
   background-color: #ffffff;
   box-shadow: 2px 2px 2px 1px rgba(136, 133, 133, 0.2);
   align-items: center;
+}
+
+.friendList {
+  display: block;
+  margin: 0;
+  padding-top: 30px;
 }
 
 .status {
